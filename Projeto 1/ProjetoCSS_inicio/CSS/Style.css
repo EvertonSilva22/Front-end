@@ -41,10 +41,35 @@ main{
     background-color: white;
     padding: 10px;
     margin-top: 15px;
-    display: block;
+    
 }
 
-.content h2{
+.content-dois{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    
+}
+
+.card{
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    
+}
+
+.card img{
+    width: 340px;
+}
+
+.card p{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.content-dois h2{
     background-color: #ccc;
     padding: 10px;
     border-bottom: 2px solid gray;
