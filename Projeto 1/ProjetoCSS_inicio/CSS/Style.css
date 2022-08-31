@@ -10,6 +10,34 @@ header{
     height: 500px;
     background-position: right center;
     background-size: cover;
+    
+}
+
+.menu ul{
+    text-align: right;
+    margin-top: 0px;
+    
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.212);
+    margin: 10px 10px;
+    
+}
+
+.menu li:hover{
+    background-color: rgba(0, 0, 0, 0.412);
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .web{
