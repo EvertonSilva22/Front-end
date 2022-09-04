@@ -54,8 +54,9 @@ header{
 
 .web p{
     font-size: 16pt;
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(0, 0, 0, 0.479);
     border-bottom: solid 3px white;
+    display: inline-block;
     padding: 5px;
 }
 
