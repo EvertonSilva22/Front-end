@@ -28,11 +28,14 @@ body{
     list-style: none;
     display: inline-block;
     margin-right: 20px;
-    text-transform: uppercase;
-    color: #425564;
-    letter-spacing: 5px;
 }
 
+.header-nav a{
+    text-decoration: none;
+    color: #425564;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
 
 /*  Estilo Seção Portfólio/Section Portfolio  */
 
@@ -50,4 +53,24 @@ body{
         font-size: 18pt;
         line-height: 1.5;
         color: #555;
+    }
+
+
+/* Estilo Seção Galeria/Section Gallery */
+
+    .Gallery{
+        color: #555;
+        padding: 0 100px;
+        padding-bottom: 50px;
+    }
+
+    .card{
+        width: 32%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .card h2{
+        font-size: 16pt;
+        text-transform: uppercase;
     }
