@@ -74,3 +74,24 @@ body{
         font-size: 16pt;
         text-transform: uppercase;
     }
+
+/* Sobre Nós/ About Us */
+
+    .About{
+        background-color: #003d52;
+        padding: 100px;
+        color: white;
+        background-image: url(../imagens/bg_detalhe.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+    .About h1{
+        font-size: 30pt;
+        text-transform: uppercase;
+    }
+
+    .About  p{
+        letter-spacing: 2;
+        width: 80%;
+    }
