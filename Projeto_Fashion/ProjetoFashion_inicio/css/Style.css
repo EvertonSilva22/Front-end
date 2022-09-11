@@ -32,3 +32,22 @@ body{
     color: #425564;
     letter-spacing: 5px;
 }
+
+
+/*  Estilo Seção Portfólio/Section Portfolio  */
+
+    .Portfolio{
+        padding: 50px 100px;
+        text-align: center;
+    }
+
+    .Portfolio h1{
+        font-size: 30pt;
+        color: #252525;
+    }
+
+    .Portfolio p{
+        font-size: 18pt;
+        line-height: 1.5;
+        color: #555;
+    }
