@@ -37,6 +37,10 @@ body{
     letter-spacing: 5px;
 }
 
+a:hover{
+    color: #003d52;
+}
+
 /*  Estilo Seção Portfólio/Section Portfolio  */
 
     .Portfolio{
@@ -115,4 +119,12 @@ body{
         margin-top: 20px;
     }
 
-    
+/*  Rodapé/Footer  */
+
+    footer{
+        background-color: #0b171f;
+        padding: 20px;
+        font-size: 16pt;
+        color: #6f8597;
+        text-align: center;
+    }
