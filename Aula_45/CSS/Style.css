@@ -1,1 +1,25 @@
 @charset "UTF-8";
+
+div{
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid black;
+    width: 15%;
+    float: left;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
+
+.div1{
+    overflow: visible;
+}
+.div2{
+    overflow: hidden;
+}
+.div3{
+    overflow: scroll;
+}
+.div4{
+    overflow: auto;
+}
