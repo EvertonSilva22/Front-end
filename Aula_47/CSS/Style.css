@@ -1,1 +1,23 @@
 @charset "UTF-8";
+body{
+    font-size: sans-serif;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(83, 83, 224);
+    border: 2px solid rgb(117, 117, 117);
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
