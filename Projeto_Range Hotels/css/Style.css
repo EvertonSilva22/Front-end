@@ -1,1 +1,29 @@
 @charset "UTF-8";
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Oxygen", arial;
+}
+
+.top-header{
+    text-align: center;
+}
+
+.top-header-logo{
+    margin: .5em;
+}
+
+.nav-menu{
+    background-color: #612674;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+    
+}
+
+.nav-menu a:hover{
+    background-color: #7c3792;
+}
