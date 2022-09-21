@@ -7,9 +7,23 @@
     <meta name="Author" content="Everton Silva">
     <meta name="Descripition" content="CSS em Formulários">
     <meta name="Keywords" content="HTML5, CSS3">
+    <link rel="stylesheet" href="CSS/Style.css">
     <title>CSS em Formulários</title>
 </head>
 <body>
-    
+    <h1>Exemplo de CSS em Formulários.</h1>
+
+    <form action="#" method="post" class="formLogin">
+    <fieldset>
+        <legend>Login</legend>
+        <label for="user">Digite o nome de usuario:</label>
+        <input type="text" id="user" name="user" autofocus>
+
+        <label for="pass">Digite a senha:</label>
+        <input type="password" id="pass" name="pass">
+
+        <input type="submit" value="login" class="btn">
+    </fieldset>
+    </form>
 </body>
 </html>

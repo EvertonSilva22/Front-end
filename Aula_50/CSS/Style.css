@@ -1,2 +1,35 @@
 @charset "UTF8";
 
+.formLogin{
+    width: 450px;
+    margin: 50px auto 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#pass, #user, .btn{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 18pt;
+    border-radius: 3px;
+    border: none;
+}
+
+fieldset{
+    background-color: rgb(216, 213, 213);
+}
+
+.btn, legend{
+    text-transform: uppercase;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
