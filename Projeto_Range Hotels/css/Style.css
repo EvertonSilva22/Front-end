@@ -61,3 +61,30 @@ h1, h2, h3, h4, h5, h6{
     color: #a87bb7;
     line-height: 1.5;
 }
+
+/* fim content */
+
+/* section icons */
+
+.section-icons{
+    padding: 2em;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.section-icons h3{
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+}
+
+.section-icons p{
+    font-weight: 1.5;
+}
+
+.section-icons span{
+    font-size: 2em;
+    color: #652e78;;
+}
+
+/* Fim section icons */
