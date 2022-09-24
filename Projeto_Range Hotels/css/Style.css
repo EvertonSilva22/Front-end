@@ -88,3 +88,24 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Fim section icons */
+
+/* Main content */
+
+.main-content{
+    padding: 2em;
+}
+
+.main-content p{
+line-height: 1.2em;
+}
+
+.main-content h3{
+    letter-spacing: .2em;
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+}
+
+.main-content-article{
+    margin-bottom: 3.5em;
+}
