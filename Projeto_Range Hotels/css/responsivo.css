@@ -1,0 +1,26 @@
+@media screen  and (min-width: 770px){ 
+    .top-header-logo{
+        float: left;
+    }
+
+    .nav-menu{
+        background-color: transparent;
+        float: right;
+        margin-top: 25px;
+    }
+
+    .nav-menu a{
+        display: inline-block;
+        color: #713a84;
+        font-size: 1.2em;
+    }
+
+    .nav-menu a:hover{
+        background-color: #e7d9fc;
+    }
+
+    .top-content{
+        background-color: #521a66;
+        color: white;
+    }
+}

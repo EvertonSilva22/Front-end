@@ -17,6 +17,12 @@ h1, h2, h3, h4, h5, h6{
     background-color: #37a0a0;
 }
 
+.clearfix::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
 .top-header{
     text-align: center;
 }
