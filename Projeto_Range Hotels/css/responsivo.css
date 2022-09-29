@@ -23,4 +23,14 @@
         background-color: #521a66;
         color: white;
     }
+
+    .col-1_4{
+        width: 44%;
+        margin: 3%;
+        float: left;
+    }
+
+    .main-content-article .button{
+        float: right;
+    }
 }
