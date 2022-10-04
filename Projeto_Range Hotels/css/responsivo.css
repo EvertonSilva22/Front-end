@@ -1,3 +1,27 @@
+@media screen and (min-width: 1024px){
+    .top-content{ 
+     background-color: #521a66;
+     background-image: url(../images/bg_topo_1600x1374.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     background-repeat: repeat;
+     background-position: center top;
+     
+    } 
+    
+    .middle-content article{
+        width: 23%;
+        margin: 1%;
+    }
+    .main-content-article{
+        width: 48%;
+        margin: 1%;
+        float: left;
+    }
+
+    
+}
+
 @media screen and (min-width: 1000px){
    .top-content{ 
     background-color: #521a66;

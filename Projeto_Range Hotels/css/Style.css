@@ -72,25 +72,23 @@ h1, h2, h3, h4, h5, h6{
 
 /* section icons */
 
-.section-icons{
+.middle-content{
     padding: 2em;
-    background-color: #f6f6f6;
+    background: #f6f6f6;
     text-align: center;
 }
-
-.section-icons h3{
+.middle-content-title{
     font-size: 1.25em;
     color: #652e78;
     text-transform: uppercase;
 }
-
-.section-icons p{
-    font-weight: 1.5;
+.middle-content p{
+    line-height: 1.5;
+    color: #222;
 }
-
-.section-icons span{
-    font-size: 2em;
-    color: #652e78;;
+.middle-content span[class^=icon]{
+    font-size: 3.5em;
+    color: #652e78;
 }
 
 /* Fim section icons */
