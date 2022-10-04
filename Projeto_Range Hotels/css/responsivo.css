@@ -20,6 +20,10 @@
         
     }
 
+    .icon-play{
+        display: block;
+    }
+
     
 }
 
@@ -31,6 +35,10 @@
     padding-top: 15em;
     
    } 
+
+   .icon-play{
+    display: block;
+}
 
    .top-content h1{
     color: white;
