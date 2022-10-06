@@ -17,7 +17,7 @@
         <legend>Dados pessoais</legend>
         
         <label>Email</label>
-        <input type="email">
+        <input type="email" required>
 
         <label>Numero de filhos</label>
         <input type="number">
@@ -33,10 +33,50 @@
         <label>Feminino</label>
         <input type="radio" name="sexo" value="F">
 
+        <label>Estado</label>
+        <select name="estado">
+            <option value="0">Selecione</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+        </select>
+    </fieldset>
+    
+    <fieldset>
+
+        <legend>Área de interesse</legend>
+
+        <label>
+        <input type="checkbox" name="html" value="html">HTML
+        </label>
+
+        <label>
+            <input type="checkbox" name="css" value="css">CSS
+        </label>
+
+        <label>
+            <input type="checkbox" name="javascript" value="javascript">JavaScript
+            </label>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Mensagem</legend>
+        <textarea name="msg" style="resize: none;" cols="30" rows="10"></textarea>
+
+        <textarea name="contrato" style="resize: none;" cols="30" rows="10" readonly>Aqui entra os termos de contrato: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nobis nostrum, vero ipsum libero harum nemo odio aut ipsam enim porro nihil ea tenetur saepe, blanditiis, sit error veniam. Sint?</textarea>
+
+        <label><input type="checkbox">Li e aceito</label>
+
+    </fieldset>
+
         <input type="submit" value="Enviar" min="0">
+        <input type="reset" value="reset">
+        <input type="button" value="button" min="0"> <!--Geralmente utilizado com JavaScript-->
 
         
-    </fieldset>
+    
     </form>
 </body>
 </html>
