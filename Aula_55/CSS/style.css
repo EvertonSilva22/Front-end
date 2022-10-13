@@ -8,3 +8,11 @@
     border-radius: 60px 90px 30px 25px / 50px 20px 100px 40px;
     box-shadow: 15px 10px 5px rgb(65, 63, 63);
 }
+.radius-two{
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 60px 90px 30px 25px / 50px 20px 100px 40px;
+    box-shadow: 15px 10px 5px rgb(65, 63, 63),-20px 5px 10px blue, 30px -10px 20px red;
+}
