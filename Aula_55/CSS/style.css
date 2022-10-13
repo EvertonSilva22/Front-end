@@ -16,3 +16,7 @@
     border-radius: 60px 90px 30px 25px / 50px 20px 100px 40px;
     box-shadow: 15px 10px 5px rgb(65, 63, 63),-20px 5px 10px blue, 30px -10px 20px red;
 }
+
+h1{
+    text-shadow: -2px -1px 0px rgba(105, 104, 104, 0.801);
+}
