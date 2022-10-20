@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+
+body{
+    background-image: linear-gradient(to right top, red, blue);
+    
+}
+
 .radius{
     background-color: orangered;
     width: 200px;
