@@ -13,6 +13,7 @@ header{
     border-top: 1px solid black;
 }
 
+/* Cabeçalho*/
 .hero-content{
     text-align: center;
     color: white;
@@ -50,6 +51,8 @@ header{
 .hero a:hover{
     background-color: rgb(0, 0, 0, 0.8);
 }
+
+/* fim cabeçalho */
 main{
     width: 80%;
     margin: auto;
