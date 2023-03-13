@@ -48,7 +48,7 @@ header{
 }
 
 .card p{
-    background-color: black;
+    background-color:#444141;
     color: white;
     margin: 0;
     padding: 15px;
@@ -97,7 +97,7 @@ main{
     margin: 0;
 }
 
-/* fim main */ 
+/* fim main */
 
 .footer{
     height: 50px;
