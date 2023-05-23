@@ -1,0 +1,20 @@
+h1, p, a{
+    font-family: sans-serif;
+    color: red;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    background-color: black;
+}
+
+a:active{
+    background-color: blue;
+}
