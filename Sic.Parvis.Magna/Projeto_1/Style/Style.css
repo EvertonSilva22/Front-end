@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.cabecalho{
+ background-image: url(../imagens/bg-4.jpg);
+ width: 100%;
+ height: 650px;
+ background-position: left top;
+}
+
+.cabecalho ul{
+   float: right;
+   margin: 10px 20px;
+}
+
+.cabecalho li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.cabecalho a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.cabecalho a:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
