@@ -1,2 +1,32 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
 
+.top-hero{
+    background-image: url(../imagens/bg-4.jpg);
+    height: 500px;
+    background-size: cover;
+    
+}
 
+.hero-content{
+    margin: auto;
+    width: 80%;
+    font-size: 40px;
+    color: white;
+}
+
+.hero-content h1{
+    text-align: center;
+    text-shadow:  5px 0.3px black;
+    text-transform: uppercase;
+}
+
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.548);
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
