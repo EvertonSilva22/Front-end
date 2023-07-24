@@ -87,9 +87,11 @@ article p{
     text-align: justify;
 }
 
-article a{
+.btn{
     background-color: #ccc;
     padding: 10px;
     display: block;
-    width: 80px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-left: auto;
 }
