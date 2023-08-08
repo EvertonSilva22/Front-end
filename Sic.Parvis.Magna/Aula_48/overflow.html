@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit content</title>
+
+    <style>
+        #container{
+            width: 80%;
+            background-color: #ccc;
+            padding: 15px;
+            overflow: auto;
+        }
+
+        .container{
+            border: 2px solid black;
+            padding: 16px;
+            height: 300px;
+        }
+
+        #item{
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+
+        .fit-content #item{
+            width: fit-content;
+        }
+
+        .min-content #item{
+            width: min-content;
+        }
+
+        .max-content #item{
+            width: max-content;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container fit-content">
+        <div id="item"> Lorem</div>
+        <div id="item"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, minus?</div>
+        <div id="item"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptas nulla laudantium dolore laboriosam libero vero quis? Magni, dolor tempore?</div>
+    </div>
+
+    <div class="container min-content">
+        <div id="item"> Lorem</div>
+        <div id="item"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, minus?</div>
+        <div id="item"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptas nulla laudantium dolore laboriosam libero vero quis? Magni, dolor tempore?</div>
+    </div>
+
+    <div class="container max-content">
+        <div id="item"> Lorem</div>
+        <div id="item"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, minus?</div>
+        <div id="item"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem voluptas nulla laudantium dolore laboriosam libero vero quis? Magni, dolor tempore?</div>
+    </div>
+</body>
+</html>
